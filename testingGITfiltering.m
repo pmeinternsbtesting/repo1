@@ -4,5 +4,6 @@ c = a + b;
 
 if c == 3
    disp('The sum is three');
-   disp('Try and ignore this line') % #gitignore
+   disp('Try and ignore this line')
+   b = a; %gitignore
 end
