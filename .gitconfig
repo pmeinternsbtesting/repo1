@@ -1,1 +1,1 @@
-$ git config --global filter.gitignore.clean "sed '/%gitignore$/'d"
+git config --global filter.gitignore.clean sed '/#gitignore$/d'
